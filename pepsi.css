@@ -9,14 +9,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,102,122,1) 0%, rgba(4,26,31,1) 92%);
+    background: #000000;
 }
 
 header,
 footer {
     height: 100px;
-    background-color: #CF2425;
+    background: radial-gradient(#000000, #000236,#080248, #000000);
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -68,7 +67,7 @@ header span {
  } 
  
 .content-image {
-    height: 85vh; 
+    height: 100px;
 }  
 
 footer {  
